@@ -1,0 +1,11 @@
+.git
+.gradle
+.settings
+bin
+build
+eclipse
+run-client
+run-server
+.classpath
+.project
+.launch

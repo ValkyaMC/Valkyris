@@ -1,0 +1,16 @@
+[
+	{
+		"modid": "valkyris",
+	  	"name": "Valkyris",
+	  	"description": "Valkya's primary mod.",
+	  	"version": "${version}",
+	  	"mcversion": "${mcversion}",
+	  	"url": "",
+	  	"updateUrl": "",
+	  	"authorList": ["xTrM_", "Arcrow", "GuiGeek"],
+	  	"credits": "Thanks to Valkya's Staff Team",
+	  	"logoFile": "",
+	  	"screenshots": [],
+	  	"dependencies": []
+	}
+]

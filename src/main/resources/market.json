@@ -1,0 +1,1106 @@
+{
+	"listings": [
+		{
+			"internalName": "arcange_rank",
+			"displayName": "Grade Arcange",
+			"description": "Archange:\n-4 lignes EC\n-10 homes\n-3 Kits offert(Utilisable 1 fois)\n-/craft\n-/xpbottle\n-/ec\n-/ptime - /pweather\n-/feed - /eat\n-Chat Color\n-Garde XP quand meurt\n-Acc\u00e8s serveur plein\n-Acc\u00e8s channel sp\u00e9cial discord",
+			"category": "GRADES",
+			"renderer": {
+				"type": "ICON",
+				"icon": {
+					"resourceDomain": "valkyris",
+					"resourcePath": "textures/gui/market/ranks/arcange.png"
+				}
+			},
+			"pricings": {
+				"BUY": {
+					"prices": {
+						"TOKENS": 500
+					}
+				}
+			},
+			"discounted": false,
+			"available": true,
+			"allowsMultiplePurchases": false,
+			"callbacks": {
+				"BUY": {
+					"actionType": "SERVER_COMMANDS",
+					"serverCommands": [
+						"pex user %player% group set arcange",
+						"vbroadcast §6Valkya \u00AB §eMerci \u00e0 §6%player% §epour son achat de §6%amount%x %product_name% §e!",
+						"notifyplayer %player% §6Boutique » §eMerci pour ton achat !"
+					]
+				}
+			}
+		},
+		{
+			"internalName": "ange_rank",
+			"displayName": "Grade Ange",
+			"description": "Ange:\n-3 lignes EC\n-8 homes\n-2 Kits offert(Utilisable 1 fois)\n-/craft\n-/xpbottle\n-/ec\n-/ptime - /pweather\n/feed - /eat\n-Chat Color\n-Garde XP quand meurt\n-Acc\u00e8s serveur plein\n-Acc\u00e8s channel sp\u00e9cial discord",
+			"category": "GRADES",
+			"renderer": {
+				"type": "ICON",
+				"icon": {
+					"resourceDomain": "valkyris",
+					"resourcePath": "textures/gui/market/ranks/ange.png"
+				}
+			},
+			"pricings": {
+				"BUY": {
+					"prices": {
+						"TOKENS": 350
+					}
+				}
+			},
+			"discounted": false,
+			"available": true,
+			"allowsMultiplePurchases": false,
+			"callbacks": {
+				"BUY": {
+					"actionType": "SERVER_COMMANDS",
+					"serverCommands": [
+						"pex user %player% group set ange",
+						"vbroadcast §6Valkya \u00AB §eMerci \u00e0 §6%player% §epour son achat de §6%amount%x %product_name% §e!",
+						"notifyplayer %player% §6Boutique » §eMerci pour ton achat !"
+					]
+				}
+			}
+		},
+		{
+			"internalName": "seraphin_rank",
+			"displayName": "Grade S\u00e9raphin",
+			"description": "S\u00e9raphin:\n-2 lignes EC\n-5 homes\n-1 Kits offert(Utilisable 1 fois)\n-/craft\n/feed - /eat\n-/ec\n-Acc\u00e8s serveur plein\n-Acc\u00e8s channel sp\u00e9cial discord",
+			"category": "GRADES",
+			"renderer": {
+				"type": "ICON",
+				"icon": {
+					"resourceDomain": "valkyris",
+					"resourcePath": "textures/gui/market/ranks/seraphin.png"
+				}
+			},
+			"pricings": {
+				"BUY": {
+					"prices": {
+						"TOKENS": 250
+					}
+				}
+			},
+			"discounted": false,
+			"available": true,
+			"allowsMultiplePurchases": false,
+			"callbacks": {
+				"BUY": {
+					"actionType": "SERVER_COMMANDS",
+					"serverCommands": [
+						"pex user %player% group set s\u00e9raphin",
+						"vbroadcast §6Valkya \u00AB §eMerci \u00e0 §6%player% §epour son achat de §6%amount%x %product_name% §e!",
+						"notifyplayer %player% §6Boutique » §eMerci pour ton achat !"
+					]
+				}
+			}
+		},
+		{
+			"internalName": "cherubin_rank",
+			"displayName": "Grade Ch\u00e9rubin",
+			"description": "S\u00e9raphin:\n-2 lignes EC\n-3 homes\n-1 Kit offert(Utilisable 1 fois)\n-/craft\n-/ec\n-Acc\u00e8s serveur plein\n-Acc\u00e8s channel sp\u00e9cial discord",
+			"category": "GRADES",
+			"renderer": {
+				"type": "ICON",
+				"icon": {
+					"resourceDomain": "valkyris",
+					"resourcePath": "textures/gui/market/ranks/cherubin.png"
+				}
+			},
+			"pricings": {
+				"BUY": {
+					"prices": {
+						"TOKENS": 100
+					}
+				}
+			},
+			"discounted": false,
+			"available": true,
+			"allowsMultiplePurchases": false,
+			"callbacks": {
+				"BUY": {
+					"actionType": "SERVER_COMMANDS",
+					"serverCommands": [
+						"pex user %player% group set ch\u00e9rubin",
+						"vbroadcast §6Valkya \u00AB §eMerci \u00e0 §6%player% §epour son achat de §6%amount%x %product_name% §e!",
+						"notifyplayer %player% §6Boutique » §eMerci pour ton achat !"
+					]
+				}
+			}
+		},
+		{
+			"internalName": "kit_travel",
+			"displayName": "Kit Travel",
+			"description": "Kit Travel\n-Aqua Armor UE\n-1 ESP Helmet\n-16 EnderPearl\n-16 Steak",
+			"category": "KITS",
+			"renderer": {
+				"type": "ITEM",
+				"stack": {
+					"itemName": "valkyris:travel_kit",
+					"meta": 0,
+					"ammount": 0
+				}
+			},
+			"pricings": {
+				"BUY": {
+					"prices": {
+						"TOKENS": 9999
+					}
+				}
+			},
+			"discounted": false,
+			"available": true,
+			"allowsMultiplePurchases": true,
+			"callbacks": {
+				"BUY": {
+					"actionType": "SERVER_COMMANDS",
+					"serverCommands": [
+						"give %player% 4616 1",
+						"vbroadcast §6Valkya \u00AB §eMerci \u00e0 §6%player% §epour son achat de §6%amount%x %product_name% §e!",
+						"notifyplayer %player% §6Boutique » §eMerci pour ton achat !"
+					]
+				}
+			}
+		},
+		{
+			"internalName": "kit_defense",
+			"displayName": "Kit D\u00e0fense",
+			"description": "Kit D\u00e0fens\n-9 Stack Obsidienne \n-64 Echelles Obsidienne\n-16 Portes Obsidienne\n-16 Trappes Obsidienne\n-16 Cesium Bucket",
+			"category": "KITS",
+			"renderer": {
+				"type": "ITEM",
+				"stack": {
+					"itemName": "valkyris:defense_kit",
+					"meta": 0,
+					"ammount": 0
+				}
+			},
+			"pricings": {
+				"BUY": {
+					"prices": {
+						"TOKENS": 9999
+					}
+				}
+			},
+			"discounted": false,
+			"available": true,
+			"allowsMultiplePurchases": true,
+			"callbacks": {
+				"BUY": {
+					"actionType": "SERVER_COMMANDS",
+					"serverCommands": [
+						"give %player% 4614 1",
+						"vbroadcast §6Valkya \u00AB §eMerci \u00e0 §6%player% §epour son achat de §6%amount%x %product_name% §e!",
+						"notifyplayer %player% §6Boutique » §eMerci pour ton achat !"
+					]
+				}
+			}
+		},
+		{
+			"internalName": "kit_pillage",
+			"displayName": "Kit Pillage",
+			"description": "Kit Pillage\n-16 EnderPearl \n-16 dynamites en c\u00e0sium\n-32 tnt\n-1 Briquet\n-16 Steak\n-1 Stuff camouflage",
+			"category": "KITS",
+			"renderer": {
+				"type": "ITEM",
+				"stack": {
+					"itemName": "valkyris:pillage_kit",
+					"meta": 0,
+					"ammount": 0
+				}
+			},
+			"pricings": {
+				"BUY": {
+					"prices": {
+						"TOKENS": 9999
+					}
+				}
+			},
+			"discounted": false,
+			"available": true,
+			"allowsMultiplePurchases": true,
+			"callbacks": {
+				"BUY": {
+					"actionType": "SERVER_COMMANDS",
+					"serverCommands": [
+						"give %player% 4581 1",
+						"vbroadcast §6Valkya \u00AB §eMerci \u00e0 §6%player% §epour son achat de §6%amount%x %product_name% §e!",
+						"notifyplayer %player% §6Boutique » §eMerci pour ton achat !"
+					]
+				}
+			}
+		},
+		{
+			"internalName": "kit_enchantement",
+			"displayName": "Kit Enchantement",
+			"description": "Kit Enchantement\n-32 livres\n-1 table d'enchantement\n-64 lapis\n-128 Bouteilles d'XP\n-16 Bibliothèques",
+			"category": "KITS",
+			"renderer": {
+				"type": "ITEM",
+				"stack": {
+					"itemName": "valkyris:enchant_kit",
+					"meta": 0,
+					"ammount": 0
+				}
+			},
+			"pricings": {
+				"BUY": {
+					"prices": {
+						"TOKENS": 9999
+					}
+				}
+			},
+			"discounted": false,
+			"available": true,
+			"allowsMultiplePurchases": true,
+			"callbacks": {
+				"BUY": {
+					"actionType": "SERVER_COMMANDS",
+					"serverCommands": [
+						"give %player% 4629 1",
+						"vbroadcast §6Valkya \u00AB §eMerci \u00e0 §6%player% §epour son achat de §6%amount%x %product_name% §e!",
+						"notifyplayer %player% §6Boutique » §eMerci pour ton achat !"
+					]
+				}
+			}
+		},
+		{
+			"internalName": "kit_farmer",
+			"displayName": "Kit Farmeur",
+			"description": "Kit Farmeur\n-Outils césium E4 U3 + Hoe U3\n-Arrosoir niv 2\n-16 accelerateur\n-16 graines en césium\n-8 graines en zirconium",
+			"category": "KITS",
+			"renderer": {
+				"type": "ITEM",
+				"stack": {
+					"itemName": "valkyris:farmer_kit",
+					"meta": 0,
+					"ammount": 0
+				}
+			},
+			"pricings": {
+				"BUY": {
+					"prices": {
+						"TOKENS": 9999
+					}
+				}
+			},
+			"discounted": false,
+			"available": true,
+			"allowsMultiplePurchases": true,
+			"callbacks": {
+				"BUY": {
+					"actionType": "SERVER_COMMANDS",
+					"serverCommands": [
+						"give %player% 4619 1",
+						"vbroadcast §6Valkya \u00AB §eMerci \u00e0 §6%player% §epour son achat de §6%amount%x %product_name% §e!",
+						"notifyplayer %player% §6Boutique » §eMerci pour ton achat !"
+					]
+				}
+			}
+		},
+		{
+			"internalName": "attack_farmer",
+			"displayName": "Kit Attaque",
+			"description": "Kit Farmeur\n-Sword Zirconium S4 - U3\n-32 Golden apple\n-1 stuff zirco P2 U2",
+			"category": "KITS",
+			"renderer": {
+				"type": "ITEM",
+				"stack": {
+					"itemName": "valkyris:attack_kit",
+					"meta": 0,
+					"ammount": 0
+				}
+			},
+			"pricings": {
+				"BUY": {
+					"prices": {
+						"TOKENS": 9999
+					}
+				}
+			},
+			"discounted": false,
+			"available": true,
+			"allowsMultiplePurchases": true,
+			"callbacks": {
+				"BUY": {
+					"actionType": "SERVER_COMMANDS",
+					"serverCommands": [
+						"give %player% 4645 1",
+						"vbroadcast §6Valkya \u00AB §eMerci \u00e0 §6%player% §epour son achat de §6%amount%x %product_name% §e!",
+						"notifyplayer %player% §6Boutique » §eMerci pour ton achat !"
+					]
+				}
+			}
+		},
+		{
+			"internalName": "spawner_irongolem",
+			"displayName": "Spawner \u00e0 IronGolems",
+			"description": "Spawner \u00e0 IronGolems",
+			"category": "SPAWNERS",
+			"renderer": {
+				"type": "ITEM",
+				"stack": {
+					"itemName": "valkyris:spawner_irongolem",
+					"meta": 0,
+					"ammount": 0
+				}
+			},
+			"pricings": {
+				"BUY": {
+					"prices": {
+						"TOKENS": 70
+					}
+				}
+			},
+			"discounted": false,
+			"available": true,
+			"allowsMultiplePurchases": true,
+			"callbacks": {
+				"BUY": {
+					"actionType": "SERVER_COMMANDS",
+					"serverCommands": [
+						"give %player% 4573 1",
+						"vbroadcast §6Valkya \u00AB §eMerci \u00e0 §6%player% §epour son achat de §6%amount%x %product_name% §e!",
+						"notifyplayer %player% §6Boutique » §eMerci pour ton achat !"
+					]
+				}
+			}
+		},
+		{
+			"internalName": "spawner_pigmans",
+			"displayName": "Spawner \u00e0 Pigmans",
+			"description": "Spawner \u00e0 Pigmans",
+			"category": "SPAWNERS",
+			"renderer": {
+				"type": "ITEM",
+				"stack": {
+					"itemName": "valkyris:spawner_pigmen",
+					"meta": 0,
+					"ammount": 0
+				}
+			},
+			"pricings": {
+				"BUY": {
+					"prices": {
+						"TOKENS": 60
+					}
+				}
+			},
+			"discounted": false,
+			"available": true,
+			"allowsMultiplePurchases": true,
+			"callbacks": {
+				"BUY": {
+					"actionType": "SERVER_COMMANDS",
+					"serverCommands": [
+						"give %player% 4643 1",
+						"vbroadcast §6Valkya \u00AB §eMerci \u00e0 §6%player% §epour son achat de §6%amount%x %product_name% §e!",
+						"notifyplayer %player% §6Boutique » §eMerci pour ton achat !"
+					]
+				}
+			}
+		},
+		{
+			"internalName": "spawner_skeletons",
+			"displayName": "Spawner \u00e0 Squelettes",
+			"description": "Spawner \u00e0 Squelettes",
+			"category": "SPAWNERS",
+			"renderer": {
+				"type": "ITEM",
+				"stack": {
+					"itemName": "valkyris:spawner_skeleton",
+					"meta": 0,
+					"ammount": 0
+				}
+			},
+			"pricings": {
+				"BUY": {
+					"prices": {
+						"TOKENS": 40
+					}
+				}
+			},
+			"discounted": false,
+			"available": true,
+			"allowsMultiplePurchases": true,
+			"callbacks": {
+				"BUY": {
+					"actionType": "SERVER_COMMANDS",
+					"serverCommands": [
+						"give %player% 4571 1",
+						"vbroadcast §6Valkya \u00AB §eMerci \u00e0 §6%player% §epour son achat de §6%amount%x %product_name% §e!",
+						"notifyplayer %player% §6Boutique » §eMerci pour ton achat !"
+					]
+				}
+			}
+		},
+		{
+			"internalName": "spawner_spider",
+			"displayName": "Spawner \u00e0 Araignées",
+			"description": "Spawner \u00e0 Araignées",
+			"category": "SPAWNERS",
+			"renderer": {
+				"type": "ITEM",
+				"stack": {
+					"itemName": "valkyris:spawner_spider",
+					"meta": 0,
+					"ammount": 0
+				}
+			},
+			"pricings": {
+				"BUY": {
+					"prices": {
+						"TOKENS": 30
+					}
+				}
+			},
+			"discounted": false,
+			"available": true,
+			"allowsMultiplePurchases": true,
+			"callbacks": {
+				"BUY": {
+					"actionType": "SERVER_COMMANDS",
+					"serverCommands": [
+						"give %player% 4626 1",
+						"vbroadcast §6Valkya \u00AB §eMerci \u00e0 §6%player% §epour son achat de §6%amount%x %product_name% §e!",
+						"notifyplayer %player% §6Boutique » §eMerci pour ton achat !"
+					]
+				}
+			}
+		},
+		{
+			"internalName": "spawner_zombies",
+			"displayName": "Spawner \u00e0 Zombies",
+			"description": "Spawner \u00e0 Zombies",
+			"category": "SPAWNERS",
+			"renderer": {
+				"type": "ITEM",
+				"stack": {
+					"itemName": "valkyris:spawner_zombies",
+					"meta": 0,
+					"ammount": 0
+				}
+			},
+			"pricings": {
+				"BUY": {
+					"prices": {
+						"TOKENS": 20
+					}
+				}
+			},
+			"discounted": false,
+			"available": true,
+			"allowsMultiplePurchases": true,
+			"callbacks": {
+				"BUY": {
+					"actionType": "SERVER_COMMANDS",
+					"serverCommands": [
+						"give %player% 4649 1",
+						"vbroadcast §6Valkya \u00AB §eMerci \u00e0 §6%player% §epour son achat de §6%amount%x %product_name% §e!",
+						"notifyplayer %player% §6Boutique » §eMerci pour ton achat !"
+					]
+				}
+			}
+		},
+		{
+			"internalName": "quinze_homes",
+			"displayName": "15 homes",
+			"description": "Attention ! Cela n\u0027ajoute pas 15 homes mais en met 15. Donc si vous achetez 15 Homes et 10 homes. Cela n\u0027additionnera pas !",
+			"category": "AUTRES",
+			"renderer": {
+				"type": "ITEM",
+				"stack": {
+					"itemName": "minecraft:bed",
+					"meta": 0,
+					"ammount": 0
+				}
+			},
+			"pricings": {
+				"BUY": {
+					"prices": {
+						"TOKENS": 150
+					}
+				}
+			},
+			"discounted": false,
+			"available": true,
+			"allowsMultiplePurchases": false,
+			"callbacks": {
+				"BUY": {
+					"actionType": "SERVER_COMMANDS",
+					"serverCommands": [
+						"pex %player% add essentials.sethome.multiple.quinze",
+						"vbroadcast §6Valkya \u00AB §eMerci \u00e0 §6%player% §epour son achat de §6%amount%x %product_name% §e!",
+						"notifyplayer %player% §6Boutique » §eMerci pour ton achat !"
+					]
+				}
+			}
+		},
+		{
+			"internalName": "dix_homes",
+			"displayName": "10 homes",
+			"description": "Attention ! Cela n\u0027ajoute pas 10 homes mais en met 10. Donc si vous achetez 10 Homes et 15 homes. Cela n\u0027additionnera pas !",
+			"category": "AUTRES",
+			"renderer": {
+				"type": "ITEM",
+				"stack": {
+					"itemName": "minecraft:bed",
+					"meta": 0,
+					"ammount": 0
+				}
+			},
+			"pricings": {
+				"BUY": {
+					"prices": {
+						"TOKENS": 100
+					}
+				}
+			},
+			"discounted": false,
+			"available": true,
+			"allowsMultiplePurchases": false,
+			"callbacks": {
+				"BUY": {
+					"actionType": "SERVER_COMMANDS",
+					"serverCommands": [
+						"pex %player% add essentials.sethome.multiple.dix",
+						"vbroadcast §6Valkya \u00AB §eMerci \u00e0 §6%player% §epour son achat de §6%amount%x %product_name% §e!",
+						"notifyplayer %player% §6Boutique » §eMerci pour ton achat !"
+					]
+				}
+			}
+		},
+		{
+			"internalName": "huit_homes",
+			"displayName": "8 homes",
+			"description": "Attention ! Cela n\u0027ajoute pas 8 homes mais en met 8. Donc si vous achetez 8 Homes et 15 homes. Cela n\u0027additionnera pas !",
+			"category": "AUTRES",
+			"renderer": {
+				"type": "ITEM",
+				"stack": {
+					"itemName": "minecraft:bed",
+					"meta": 0,
+					"ammount": 0
+				}
+			},
+			"pricings": {
+				"BUY": {
+					"prices": {
+						"TOKENS": 80
+					}
+				}
+			},
+			"discounted": false,
+			"available": true,
+			"allowsMultiplePurchases": false,
+			"callbacks": {
+				"BUY": {
+					"actionType": "SERVER_COMMANDS",
+					"serverCommands": [
+						"pex %player% add essentials.sethome.multiple.huit",
+						"vbroadcast §6Valkya \u00AB §eMerci \u00e0 §6%player% §epour son achat de §6%amount%x %product_name% §e!",
+						"notifyplayer %player% §6Boutique » §eMerci pour ton achat !"
+					]
+				}
+			}
+		},
+		{
+			"internalName": "cinq_homes",
+			"displayName": "5 homes",
+			"description": "Attention ! Cela n\u0027ajoute pas 5 homes mais en met 5. Donc si vous achetez 5 Homes et 15 homes. Cela n\u0027additionnera pas !",
+			"category": "AUTRES",
+			"renderer": {
+				"type": "ITEM",
+				"stack": {
+					"itemName": "minecraft:bed",
+					"meta": 0,
+					"ammount": 0
+				}
+			},
+			"pricings": {
+				"BUY": {
+					"prices": {
+						"TOKENS": 50
+					}
+				}
+			},
+			"discounted": false,
+			"available": true,
+			"allowsMultiplePurchases": false,
+			"callbacks": {
+				"BUY": {
+					"actionType": "SERVER_COMMANDS",
+					"serverCommands": [
+						"pex %player% add essentials.sethome.multiple.cinq",
+						"vbroadcast §6Valkya \u00AB §eMerci \u00e0 §6%player% §epour son achat de §6%amount%x %product_name% §e!",
+						"notifyplayer %player% §6Boutique » §eMerci pour ton achat !"
+					]
+				}
+			}
+		},
+		{
+			"internalName": "trois_homes",
+			"displayName": "3 homes",
+			"description": "Attention ! Cela n\u0027ajoute pas 3 homes mais en met 3. Donc si vous achetez 3 Homes et 15 homes. Cela n\u0027additionnera pas !",
+			"category": "AUTRES",
+			"renderer": {
+				"type": "ITEM",
+				"stack": {
+					"itemName": "minecraft:bed",
+					"meta": 0,
+					"ammount": 0
+				}
+			},
+			"pricings": {
+				"BUY": {
+					"prices": {
+						"TOKENS": 30
+					}
+				}
+			},
+			"discounted": false,
+			"available": true,
+			"allowsMultiplePurchases": false,
+			"callbacks": {
+				"BUY": {
+					"actionType": "SERVER_COMMANDS",
+					"serverCommands": [
+						"pex %player% add essentials.sethome.multiple.trois",
+						"vbroadcast §6Valkya \u00AB §eMerci \u00e0 §6%player% §epour son achat de §6%amount%x %product_name% §e!",
+						"notifyplayer %player% §6Boutique » §eMerci pour ton achat !"
+					]
+				}
+			}
+		},
+		{
+			"internalName": "3_lignes_ec",
+			"displayName": "3 lignes EnderChest",
+			"description": "Attention ! Cela n\u0027ajoute pas 3 lignes mais en met 3. Cela n\u0027additionnera pas !",
+			"category": "AUTRES",
+			"renderer": {
+				"type": "ITEM",
+				"stack": {
+					"itemName": "minecraft:enderchest",
+					"meta": 0,
+					"ammount": 0
+				}
+			},
+			"pricings": {
+				"BUY": {
+					"prices": {
+						"TOKENS": 125
+					}
+				}
+			},
+			"discounted": false,
+			"available": true,
+			"allowsMultiplePurchases": false,
+			"callbacks": {
+				"BUY": {
+					"actionType": "SERVER_COMMANDS",
+					"serverCommands": [
+						"pex %player% add CustomEnderChest.level.2",
+						"vbroadcast §6Valkya \u00AB §eMerci \u00e0 §6%player% §epour son achat de §6%amount%x %product_name% §e!",
+						"notifyplayer %player% §6Boutique » §eMerci pour ton achat !"
+					]
+				}
+			}
+		},
+		{
+			"internalName": "2_lignes_ec",
+			"displayName": "2 lignes EnderChest",
+			"description": "Attention ! Cela n\u0027ajoute pas 2 lignes mais en met 2. Cela n\u0027additionnera pas !",
+			"category": "AUTRES",
+			"renderer": {
+				"type": "ITEM",
+				"stack": {
+					"itemName": "minecraft:enderchest",
+					"meta": 0,
+					"ammount": 0
+				}
+			},
+			"pricings": {
+				"BUY": {
+					"prices": {
+						"TOKENS": 100
+					}
+				}
+			},
+			"discounted": false,
+			"available": true,
+			"allowsMultiplePurchases": false,
+			"callbacks": {
+				"BUY": {
+					"actionType": "SERVER_COMMANDS",
+					"serverCommands": [
+						"pex %player% add CustomEnderChest.level.1",
+						"vbroadcast §6Valkya \u00AB §eMerci \u00e0 §6%player% §epour son achat de §6%amount%x %product_name% §e!",
+						"notifyplayer %player% §6Boutique » §eMerci pour ton achat !"
+					]
+				}
+			}
+		},
+		{
+			"internalName": "zirconium_ingot",
+			"displayName": "Zirconium Ingot",
+			"description": "",
+			"category": "MINERAIS",
+			"renderer": {
+				"type": "ITEM",
+				"stack": {
+					"itemName": "valkyris:zirconium_ingot",
+					"meta": 0,
+					"ammount": 0
+				}
+			},
+			"pricings": {
+				"BUY": {
+					"prices": {
+						"MONEY": 10000
+					}
+				},
+				"SELL": {
+					"prices": {
+						"MONEY": 1000
+					}
+				}
+			},
+			"discounted": false,
+			"available": true,
+			"allowsMultiplePurchases": true,
+			"callbacks": {
+				"BUY": {
+					"actionType": "ITEM_GIVE",
+					"items": [
+						{
+							"itemName": "valkyris:zirconium_ingot",
+							"meta": 0,
+							"ammount": 1
+						}
+					]
+				},
+				"SELL": {
+					"actionType": "ITEM_SELL",
+					"items": [
+						{
+							"itemName": "valkyris:zirconium_ingot",
+							"meta": 0,
+							"ammount": 1
+						}
+					]
+				}
+			}
+		},
+		{
+			"internalName": "cesium_ingot",
+			"displayName": "Cesium Ingot",
+			"description": "",
+			"category": "MINERAIS",
+			"renderer": {
+				"type": "ITEM",
+				"stack": {
+					"itemName": "valkyris:cesium_ingot",
+					"meta": 0,
+					"ammount": 0
+				}
+			},
+			"pricings": {
+				"BUY": {
+					"prices": {
+						"MONEY": 10000
+					}
+				},
+				"SELL": {
+					"prices": {
+						"MONEY": 1000
+					}
+				}
+			},
+			"discounted": false,
+			"available": true,
+			"allowsMultiplePurchases": true,
+			"callbacks": {
+				"BUY": {
+					"actionType": "ITEM_GIVE",
+					"items": [
+						{
+							"itemName": "valkyris:cesium_ingot",
+							"meta": 0,
+							"ammount": 1
+						}
+					]
+				},
+				"SELL": {
+					"actionType": "ITEM_SELL",
+					"items": [
+						{
+							"itemName": "valkyris:cesium_ingot",
+							"meta": 0,
+							"ammount": 1
+						}
+					]
+				}
+			}
+		},
+		{
+			"internalName": "diamond",
+			"displayName": "Dimond",
+			"description": "",
+			"category": "MINERAIS",
+			"renderer": {
+				"type": "ITEM",
+				"stack": {
+					"itemName": "minecraft:diamond",
+					"meta": 0,
+					"ammount": 0
+				}
+			},
+			"pricings": {
+				"BUY": {
+					"prices": {
+						"MONEY": 10000
+					}
+				},
+				"SELL": {
+					"prices": {
+						"MONEY": 1000
+					}
+				}
+			},
+			"discounted": false,
+			"available": true,
+			"allowsMultiplePurchases": true,
+			"callbacks": {
+				"BUY": {
+					"actionType": "ITEM_GIVE",
+					"items": [
+						{
+							"itemName": "minecraft:diamond",
+							"meta": 0,
+							"ammount": 1
+						}
+					]
+				},
+				"SELL": {
+					"actionType": "ITEM_SELL",
+					"items": [
+						{
+							"itemName": "minecraft:diamond",
+							"meta": 0,
+							"ammount": 1
+						}
+					]
+				}
+			}
+		},
+		{
+			"internalName": "iron_ingot",
+			"displayName": "Iron Ingot",
+			"description": "",
+			"category": "MINERAIS",
+			"renderer": {
+				"type": "ITEM",
+				"stack": {
+					"itemName": "minecraft:iron_ingot",
+					"meta": 0,
+					"ammount": 0
+				}
+			},
+			"pricings": {
+				"BUY": {
+					"prices": {
+						"MONEY": 10000
+					}
+				},
+				"SELL": {
+					"prices": {
+						"MONEY": 1000
+					}
+				}
+			},
+			"discounted": false,
+			"available": true,
+			"allowsMultiplePurchases": true,
+			"callbacks": {
+				"BUY": {
+					"actionType": "ITEM_GIVE",
+					"items": [
+						{
+							"itemName": "minecraft:iron_ingot",
+							"meta": 0,
+							"ammount": 1
+						}
+					]
+				},
+				"SELL": {
+					"actionType": "ITEM_SELL",
+					"items": [
+						{
+							"itemName": "minecraft:iron_ingot",
+							"meta": 0,
+							"ammount": 1
+						}
+					]
+				}
+			}
+		},
+		{
+			"internalName": "gold_ingot",
+			"displayName": "gold_ingot",
+			"description": "",
+			"category": "MINERAIS",
+			"renderer": {
+				"type": "ITEM",
+				"stack": {
+					"itemName": "minecraft:gold_ingot",
+					"meta": 0,
+					"ammount": 0
+				}
+			},
+			"pricings": {
+				"BUY": {
+					"prices": {
+						"MONEY": 10000
+					}
+				},
+				"SELL": {
+					"prices": {
+						"MONEY": 1000
+					}
+				}
+			},
+			"discounted": false,
+			"available": true,
+			"allowsMultiplePurchases": true,
+			"callbacks": {
+				"BUY": {
+					"actionType": "ITEM_GIVE",
+					"items": [
+						{
+							"itemName": "minecraft:gold_ingot",
+							"meta": 0,
+							"ammount": 1
+						}
+					]
+				},
+				"SELL": {
+					"actionType": "ITEM_SELL",
+					"items": [
+						{
+							"itemName": "minecraft:gold_ingot",
+							"meta": 0,
+							"ammount": 1
+						}
+					]
+				}
+			}
+		},
+		{
+			"internalName": "redstone",
+			"displayName": "Redstone",
+			"description": "",
+			"category": "MINERAIS",
+			"renderer": {
+				"type": "ITEM",
+				"stack": {
+					"itemName": "minecraft:redstone",
+					"meta": 0,
+					"ammount": 0
+				}
+			},
+			"pricings": {
+				"BUY": {
+					"prices": {
+						"MONEY": 10000
+					}
+				},
+				"SELL": {
+					"prices": {
+						"MONEY": 1000
+					}
+				}
+			},
+			"discounted": false,
+			"available": true,
+			"allowsMultiplePurchases": true,
+			"callbacks": {
+				"BUY": {
+					"actionType": "ITEM_GIVE",
+					"items": [
+						{
+							"itemName": "minecraft:redstone",
+							"meta": 0,
+							"ammount": 1
+						}
+					]
+				},
+				"SELL": {
+					"actionType": "ITEM_SELL",
+					"items": [
+						{
+							"itemName": "minecraft:redstone",
+							"meta": 0,
+							"ammount": 1
+						}
+					]
+				}
+			}
+		},
+		{
+			"internalName": "lapis_lazuli",
+			"displayName": "Lapis Lazuli",
+			"description": "",
+			"category": "MINERAIS",
+			"renderer": {
+				"type": "ITEM",
+				"stack": {
+					"itemName": "minecraft:dye",
+					"meta": 4,
+					"ammount": 0
+				}
+			},
+			"pricings": {
+				"BUY": {
+					"prices": {
+						"MONEY": 10000
+					}
+				},
+				"SELL": {
+					"prices": {
+						"MONEY": 1000
+					}
+				}
+			},
+			"discounted": false,
+			"available": true,
+			"allowsMultiplePurchases": true,
+			"callbacks": {
+				"BUY": {
+					"actionType": "ITEM_GIVE",
+					"items": [
+						{
+							"itemName": "minecraft:dye",
+							"meta": 4,
+							"ammount": 1
+						}
+					]
+				},
+				"SELL": {
+					"actionType": "ITEM_SELL",
+					"items": [
+						{
+							"itemName": "minecraft:dye",
+							"meta": 4,
+							"ammount": 1
+						}
+					]
+				}
+			}
+		}
+	],
+	"market_enabled": true
+}
